@@ -12,10 +12,13 @@ Install required libraries:
 
 pip install flask flask-sqlalchemy flask-login
 ```
+
+```
 Create the database.
 
 from project import db, create_app
 db.create_all(app=create_app())
+```
 
 ```
 Build the project.
