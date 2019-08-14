@@ -1,0 +1,9 @@
+
+pip install flask flask-sqlalchemy flask-login
+
+from project import db, create_app
+db.create_all(app=create_app())
+
+export FLASK_APP=project
+export FLASK_DEBUG=1
+flask run
